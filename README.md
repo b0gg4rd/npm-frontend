@@ -1,6 +1,6 @@
 # NPM Frontend
 
-Basic building structure with **NPM** to frontend development.
+Basic building structure with **NPM** for _frontend_ development.
 
 ## Requirements
 
