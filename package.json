@@ -46,7 +46,7 @@
     "prebuild"           : "npm run clean",
     "build"              : "npm run compile:assets && npm run compile:css && npm run compile:html && npm run compile:js",
 
-    "build:watch"        : "parallelshell -v \"npm run watch:assets\" \"npm run watch:css\" \"npm run watch:html\" \"npm run watch:js\"",
+    "build:watch"        : "parallelshell \"npm run watch:assets\" \"npm run watch:css\" \"npm run watch:html\" \"npm run watch:js\"",
 
     "prestart"           : "npm update && npm run build && bower update -s",
     "start"              : "parallelshell \"live-server --quiet --port=9876 dist\" \"npm run build:watch\" "
