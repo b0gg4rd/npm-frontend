@@ -4,15 +4,19 @@ Basic building structure with **NPM** for _frontend_ development.
 
 ## Requirements
 
-- NodeJS 6.x
+- NodeJS 8.x
 
 ## Building
 
 The first time just use:
 
-`$ npm install`
+```bash
+$ npm install
+```
 
 For develop cycle use:
 
-`$ npm start`
+```bash
+$ npm start
+```
 
