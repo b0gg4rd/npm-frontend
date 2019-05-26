@@ -4,7 +4,7 @@ Basic building structure with **NPM** for _frontend_ development.
 
 ## Requirements
 
-- NodeJS 8.x
+- NodeJS 12.3.1
 
 ## Building
 
